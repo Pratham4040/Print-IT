@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>File Has Been Uploaded</h1>
+{% extends "index.html" %}
+{% block headings %}       
+<h1>Print IT</h1>
+{% endblock %}
+{%block content%}
+    <h3 align="center">File Has Been Uploaded</h3>
     Number of Pages Remaining:-{{numberOfPages}}
-</body>
-</html>
+{% endblock %}    
+

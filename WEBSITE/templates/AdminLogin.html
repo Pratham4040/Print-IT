@@ -1,0 +1,28 @@
+{% extends "index.html"%}
+{% block headings %}       
+<h1>Print_IT</h1>
+{% endblock %}
+{% block content %}
+<form method="POST">
+    <h3 align="center">Admin Login</h3>
+    <div class="form=m-group">
+       <label for="Username">Username</label>
+        <input type="text" 
+        class="form-control" 
+        id="Username" name="Username" 
+        placeholder="Enter Username"/> 
+    </div> 
+
+  <div class="form=m-group">
+     <label for="password">password</label>
+      <input type="password" 
+      class="form-control" 
+      id="password" 
+      name="password" 
+      placeholder="Enter Password"/>
+      
+  </div>
+  <br />
+  <button type="submit" class="'btn btn-primary">Login</button>
+ </form>
+{% endblock %} 

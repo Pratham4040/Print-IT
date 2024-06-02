@@ -43,4 +43,4 @@ def home():
 
         #subprocess.run(['rm', "static/files/"+secure_filename(file.filename)])
         return render_template('done.html', numberOfPages=numberOfPages)
-    return render_template('index.html', form=form)
+    return render_template('home.html', form=form)

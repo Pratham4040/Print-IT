@@ -1,0 +1,19 @@
+
+.body{
+    height: 0px;
+    width: 0px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 0, 255, 0.215);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+.p{
+    padding: 20px;
+    background-color: blue;
+    color:white;
+    
+}
